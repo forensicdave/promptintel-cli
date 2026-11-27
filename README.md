@@ -2,6 +2,8 @@
 
 Repository: [forensicdave/promptintel-cli](https://github.com/forensicdave/promptintel-cli).
 
+**Independent project:** This repository is the independent work of forensicdave. It is not an official PromptIntel project and is not authorized, endorsed, or sponsored by PromptIntel.
+
 Free and open-source under the [MIT licence](LICENSE). See the [changelog](CHANGELOG.md) for release changes. The licence covers this client; PromptIntel API access and data remain subject to the service's terms.
 
 A Python command-line client for the PromptIntel threat intelligence feed and Agent Scanner APIs. Includes every REST endpoint in the supplied reference, Markdown/JSON/text output, `--verbose`, `--debug`, and native NOVA/CSV downloads. Requires Python **3.10+**; no third-party runtime dependencies for environment-variable authentication. OS credential storage is available through the optional `keyring` extra.
