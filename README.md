@@ -2,7 +2,7 @@
 
 Repository: [forensicdave/promptintel-cli](https://github.com/forensicdave/promptintel-cli).
 
-**Independent project:** This repository is the independent work of forensicdave. It is not an official PromptIntel project and is not authorized, endorsed, or sponsored by PromptIntel.
+**Independent project:** This repository is my independent work - it is not an official PromptIntel project and is not authorized, endorsed, or sponsored by PromptIntel.
 
 Free and open-source under the [MIT licence](LICENSE). See the [changelog](CHANGELOG.md) for release changes. The licence covers this client; PromptIntel API access and data remain subject to the service's terms.
 
