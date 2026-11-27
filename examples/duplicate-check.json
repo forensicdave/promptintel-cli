@@ -1,0 +1,6 @@
+{
+  "kind": "agent_threat",
+  "title": "Example campaign: observed credential exfiltration attempt",
+  "source": "https://research.example/advisory",
+  "iocs": [{"type": "domain", "value": "collection.example"}]
+}

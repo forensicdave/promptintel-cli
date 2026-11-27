@@ -1,0 +1,8 @@
+{
+  "query": "credential theft",
+  "filters": {
+    "severity": ["high", "critical"],
+    "categories": ["manipulation", "abuse"],
+    "tags": ["security"]
+  }
+}

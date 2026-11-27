@@ -1,0 +1,11 @@
+include Makefile
+include LICENSE CHANGELOG.md
+recursive-include examples *.json
+recursive-include scripts *.py
+recursive-include tests *.py
+global-exclude *.py[cod] .DS_Store test-keys.json
+prune .venv
+prune build
+prune dist
+prune .test-results
+

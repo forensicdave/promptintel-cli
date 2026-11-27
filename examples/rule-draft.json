@@ -1,0 +1,14 @@
+{
+  "name": "ExampleTwoMarkerRule",
+  "meta": {
+    "description": "Harmless format demonstration matching two test markers; not a production detector.",
+    "author": "Example team",
+    "category": "abusing_functions/agentic_misuse",
+    "severity": "low"
+  },
+  "keywords": [
+    {"var": "$first", "value": "EXAMPLE_MARKER_ONE", "regex": false, "case_sensitive": true},
+    {"var": "$second", "value": "EXAMPLE_MARKER_TWO", "regex": false, "case_sensitive": true}
+  ],
+  "condition": "keywords.$first and keywords.$second"
+}

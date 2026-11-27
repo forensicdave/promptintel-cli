@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptintel-cli"
+dynamic = ["version"]
+description = "Python CLI for the PromptIntel threat intelligence and Agent Scanner APIs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+keyring = ["keyring>=25.6,<26"]
+
+[project.scripts]
+promptintel-cli = "promptintel_cli.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/forensicdave/promptintel-cli"
+Repository = "https://github.com/forensicdave/promptintel-cli"
+Issues = "https://github.com/forensicdave/promptintel-cli/issues"
+
+[tool.setuptools.packages.find]
+include = ["promptintel_cli*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "promptintel_cli.__version__"}
+

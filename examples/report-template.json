@@ -1,0 +1,12 @@
+{
+  "title": "REPLACE campaign: main finding",
+  "category": "mcp",
+  "severity": "high",
+  "confidence": 0.8,
+  "fingerprint": "550e8400-e29b-41d4-a716-446655440000",
+  "description": "REPLACE with real, redacted evidence in the PromptIntel report format. This template is not an observed incident.",
+  "protection": "**Threat:** REPLACE\n\n**Mechanism:** REPLACE\n\n**Security impact:** REPLACE\n\n**Defensive focus:** REPLACE\n\n**Evidence:** REPLACE",
+  "source_type": "incident_response",
+  "collected_by": "REPLACE with agent or team name",
+  "collection_method": "read_only"
+}

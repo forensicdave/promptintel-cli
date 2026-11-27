@@ -1,0 +1,7 @@
+{
+  "indicators": [
+    "example.com",
+    {"type": "package", "value": "lodash.merge"},
+    {"type": "extension", "value": "ms-python.python"}
+  ]
+}
